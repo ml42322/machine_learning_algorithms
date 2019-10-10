@@ -2,6 +2,7 @@
 My own implementation of various machine learning algorithms
 
 ################## DECISION TREE ######################
+
 add text 
 
 
@@ -9,6 +10,7 @@ add text
 
 
 ################ LOGISTIC REGRESSION ##################
+
 feature.py
 - args: <train_data.tsv> <valid_data.tsv> <test_data.tsv> <dictionary.txt> <formatted_train.tsv> <formatted_valid.tsv> <formatted_test.tsv> model_type
 - feature.py is the preprocessing pipeline. It takes in 8 arguments and returns the formatted .tsv files
