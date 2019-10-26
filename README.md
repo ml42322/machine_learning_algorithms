@@ -28,13 +28,14 @@ lr.py
 - learning_rate = 0.1 
 
 ################ NEURAL NETWORK ##################
-Neural network implementation using SGD and one hidden layer.
-Loss fn used is mean cross entropy
+- Neural network implementation using SGD and one hidden layer.
+- Loss fn used is mean cross entropy
+
 Example: 
-Epochs: 2
-Hidden units: 4
-Initialization: 2 weights (init_flag=='1' for random weight initialization, init_flag=='2' for zero weights)
-Learning rate: 0.1
+- Epochs: 2
+- Hidden units: 4
+- Initialization: 2 weights (init_flag=='1' for random weight initialization, init_flag=='2' for zero weights)
+- Learning rate: 0.1
 
 Args:
 python neuralnet.py <train.csv> <test.csv> <model1train_out.labels> <model1test_out.labels> <model1metrics_out.txt> 2 4 2 0.1
