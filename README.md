@@ -40,3 +40,16 @@ Example:
 Args:
 python neuralnet.py <train.csv> <test.csv> <model1train_out.labels> <model1test_out.labels> <model1metrics_out.txt> 2 4 2 0.1
 
+############# REINFORCEMENT LEARNING ###############
+My implementation of the Mountain Car problem using Q-learning with epsilon-greedy action selection.
+
+https://gym.openai.com/envs/MountainCar-v0/
+
+- args: <mode> <weight_out> <returns_out> <episodes> <max_iterations> <epsilon> <gamma> <learning_rate>
+ 
+ Example:
+ 
+ Mode- raw or tile 
+ 
+ python q_learning.py raw weight.out returns.out 4 200 0.05 0.99 0.01
+
