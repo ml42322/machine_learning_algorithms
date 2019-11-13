@@ -43,11 +43,9 @@ python neuralnet.py <train.csv> <test.csv> <model1train_out.labels> <model1test_
 ############# REINFORCEMENT LEARNING ###############
 My implementation of the Mountain Car problem using Q-learning with epsilon-greedy action selection.
 
-https://gym.openai.com/envs/MountainCar-v0/
-
-- args: <mode> <weight_out> <returns_out> <episodes> <max_iterations> <epsilon> <gamma> <learning_rate>
- 
- Example:
+- https://gym.openai.com/envs/MountainCar-v0/
+- args: <mode><weight_out><returns_out><episodes><max_iterations><epsilon><gamma><learning_rate>
+ - Example:
  
  Mode- raw or tile 
  
