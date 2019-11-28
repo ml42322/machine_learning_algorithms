@@ -50,4 +50,14 @@ My implementation of the Mountain Car problem using Q-learning with epsilon-gree
  Mode- raw or tile 
  
  python q_learning.py raw weight.out returns.out 4 200 0.05 0.99 0.01
+ 
+ ################ HIDDEN MARKOV MODEL ##################
+ - The HMM decoding problem solved using the Viterbi algorithm
+ - Train using learnhmm.py to get prior, emission, and transition probabilities
+ - Predict sequence using viterbi.py; takes in the output files from learnhmm.py; outputs accuracy and predictions. 
+ 
+ Args:
+ python learnhmm.py <train.txt> <index_to_word.txt> <index_to_tag.txt> <hmmprior.txt> <hmmemit.txt> <hmmtrans.txt>
+ python viterbi.py <test.txt> <index_to_word.txt> <index_to_tag.txt> <hmmprior.txt> <hmmemit.txt> <hmmtrans.txt> <predictions.txt> <metrics>
+ 
 
