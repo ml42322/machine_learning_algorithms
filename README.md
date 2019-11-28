@@ -57,7 +57,9 @@ My implementation of the Mountain Car problem using Q-learning with epsilon-gree
  - Predict sequence using viterbi.py; takes in the output files from learnhmm.py; outputs accuracy and predictions. 
  
  Args:
+ 
  python learnhmm.py <train.txt> <index_to_word.txt> <index_to_tag.txt> <hmmprior.txt> <hmmemit.txt> <hmmtrans.txt>
+ 
  python viterbi.py <test.txt> <index_to_word.txt> <index_to_tag.txt> <hmmprior.txt> <hmmemit.txt> <hmmtrans.txt> <predictions.txt> <metrics>
  
 
